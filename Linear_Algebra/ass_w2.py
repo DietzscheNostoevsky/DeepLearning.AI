@@ -1,4 +1,20 @@
 
+# %%
+import numpy as np
+
+# %%
+
+### START CODE HERE ###
+A = np.array([
+    [2, -1, 1, 1],
+    [1, 2, -1, -1],
+    [-1, 2, 2, 2],
+    [1, -1, 2, 1]
+], dtype=np.dtype(float))
+b = np.array([6, 3, 14, 8], dtype=np.dtype(float))
+
+# %%
+### END CODE HERE ###
 ### START CODE HERE ###
 # stack horizontally matrix A and vector b, which needs to be reshaped as a vector (4, 1)
 A_system = None
@@ -44,3 +60,5 @@ A_ref = None
 A_ref = augmented_to_ref(A, b)
 
 print(A_ref)
+
+# %%
