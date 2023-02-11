@@ -14,10 +14,10 @@ A = np.array([
 b = np.array([6, 3, 14, 8], dtype=np.dtype(float))
 
 # %%
-### END CODE HERE ###
+
 ### START CODE HERE ###
 # stack horizontally matrix A and vector b, which needs to be reshaped as a vector (4, 1)
-A_system = None
+A_system = np.column_stack((A, b))
 
 # swap row 0 and row 1 of matrix A_system (remember that indexing in NumPy array starts from 0)
 A_ref = None
